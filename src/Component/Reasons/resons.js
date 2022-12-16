@@ -5,6 +5,10 @@ import image2 from './../../assets/image2.png';
 import image3 from './../../assets/image3.png';
 import image4 from './../../assets/image4.png';
 import tick from './../../assets/tick.png';
+import adidas from './../../assets/adidas.png';
+import nike from './../../assets/nike.png';
+import nb from './../../assets/nb.png';
+
 const resons = () => {
   return (
       <div className="reasons">
@@ -38,6 +42,18 @@ const resons = () => {
                   <img src={tick} alt="" />
                   <span>Lorem ipsum dolor sit amet consectetur.</span>
                 </div>
+              </div>
+              <span style={{
+                color:"var(--gray)",
+                fontWeight:"bold",
+                fontSize:"1.5rem"
+              }}>
+                OUR PARTNERS
+              </span>
+              <div className="partners">
+                <img src={adidas} alt="" />
+                <img src={nb} alt="" />
+                <img src={nike} alt="" />
               </div>
       </div>
       </div>
