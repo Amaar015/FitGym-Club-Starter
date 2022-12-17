@@ -30,7 +30,7 @@ const price = () => {
                 </div>
                 <div>
                     <span>See more Benifits</span>
-                    <button className='btn'>Join Now</button>
+                    <button className='btn join'>Join Now</button>
                 </div>
              </div>
           ) })}

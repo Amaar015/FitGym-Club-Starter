@@ -61,6 +61,7 @@
     fill: white;
 }
 
-.plans> :nth-child(2) >button{
-    color: var(--orange);
+.plans>:nth-child(2) .join{
+        color: orange;
 }
+
