@@ -61,19 +61,32 @@ const Hero = () => {
                </div>
                <div className="right-hero">
                 <button className='btn'>Join Now</button>
-              <div className="heart-rate">
+              <motion.div 
+                transition={{...transition,type:'spring'}}
+                initial={{right:'-1rem'}}
+                whileInView={{right:'4rem'}}
+
+              className="heart-rate">
                 <img src={heart} alt="" />
                 <span>Heart rate</span> <span>201 bpm</span>
-              </div>
+              </motion.div>
               <img src={hero_image} className='hero-image' alt="" />
-               <img src={hero_back} className='hero-back' alt="" />
-               <div className="calories">
+               <motion.img
+                transition={{...transition,type:'spring'}}
+                initial={{right:'11rem'}}
+                whileInView={{right:'20rem'}}
+               src={hero_back} className='hero-back' alt="" />
+               <motion.div 
+                transition={{...transition,type:'spring'}}
+                initial={{right:'37rem'}}
+                whileInView={{right:'28rem'}}
+               className="calories">
                 <img src={calories} alt="" />
                 <div>
                 <span>Calories burned</span>
                  <span>220 kcal</span>
                 </div>
-               </div>
+               </motion.div>
                </div>
        </div>
     )
