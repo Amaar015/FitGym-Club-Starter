@@ -6,7 +6,18 @@
     gap: 4rem;
     position: relative;
 }
-
+.blur-p1{
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0rem;
+}
+.blur-p2{
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0rem;
+}
 .plans{
     display: flex;
     align-items: center;
