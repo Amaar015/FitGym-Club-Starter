@@ -14,9 +14,9 @@ const resons = () => {
       <div className="reasons">
         <div className="reason-l">
             <img className='image1' src={image1} alt="" />
-            <img src={image2} alt="" />
-            <img src={image3} alt="" />
-            <img src={image4} alt="" />
+            <img className='image2' src={image2} alt="" />
+            <img  className='image3' src={image3} alt="" />
+            <img  className='image4' src={image4} alt="" />
                     
         </div>
         <div className="reason-r">

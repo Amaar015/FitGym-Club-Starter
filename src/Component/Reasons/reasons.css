@@ -72,3 +72,31 @@
 .partners>img{
     width: 3rem;
 }
+
+
+@media (max-width:786px) {
+     .reasons{
+        flex-direction: column;
+     }
+    
+.reason-l{
+    grid-auto-rows: auto;
+    overflow: hidden;
+}
+
+  .image1{
+    width: 7rem;
+    height: 17rem;
+}
+.image2{
+    width: 15rem;
+    height: 10rem;
+}
+.image3{
+    width: 7rem;
+}
+ .image4{
+    width: 7rem;
+    height: 6rem;
+}
+    }
