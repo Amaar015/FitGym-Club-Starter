@@ -4,7 +4,7 @@ import logo from './../../assets/logo.png';
 import bars from './../../assets/bars.png';
 // import { Link } from 'react-router-dom';
 const Header = () => {
-       const mobile=window.innerWidth<=786? true:false;
+       const mobile=window.innerWidth<=786?true:false;
        const [menuOpened,SetmenuOpened]=useState(false);
        
      return (
@@ -23,20 +23,26 @@ const Header = () => {
                 </div>
               ):(
             <ul className='header-menu'>
-                <li>
+                <li
+                onClick={()=>{SetmenuOpened(false)}}
+                activvClass='active'
+                >
                   {/* <Link
-                  onClick={()=>{SetmenuOpened(false)}}
+                  
                   activvClass='active'
                   to='header'
                   smooth={true}
                   spy={true}
                   > */}
-                  Home
+                  <a href='#hero' style={{color:'#fff', textDecoration:'none'}}> Home </a>
                   {/* </Link> */}
                   </li>
                   
                  
-                <li>
+                <li
+                onClick={()=>{SetmenuOpened(false)}}
+                activvClass='active'
+                >
                 {/* <Link
                 onClick={()=>{SetmenuOpened(false)}}
                 activvClass='active'
@@ -45,11 +51,14 @@ const Header = () => {
                 spy={true} */}
                 
                 {/* > */}
-                  Programs
+                 <a href='#programs' style={{color:'#fff', textDecoration:'none'}}> Programs </a>
                   {/* </Link> */}
                   </li>
                 
-                <li>
+                <li
+                onClick={()=>{SetmenuOpened(false)}}
+                activvClass='active'
+                >
                 {/* <Link
                 onClick={()=>{SetmenuOpened(false)}}
                 activvClass='active'
@@ -57,11 +66,14 @@ const Header = () => {
                 smooth={true}
                 spy={true}
                 > */}
-                  Why us
+                  <a href='#reason' style={{color:'#fff', textDecoration:'none'}}>Why us</a> 
                   {/* </Link> */}
                   </li>
                 
-                <li>
+                <li
+                onClick={()=>{SetmenuOpened(false)}}
+                activvClass='active'
+                >
                 {/* <Link
                 onClick={()=>{SetmenuOpened(false)}}
                 activvClass='active'
@@ -69,11 +81,14 @@ const Header = () => {
                 smooth={true}
                 spy={true}
                 > */}
-                  Plans
+                  <a href='#plan' style={{color:'#fff', textDecoration:'none'}}> Plans </a>
                   {/* </Link> */}
                   </li>
                 
-                <li>
+                <li
+                onClick={()=>{SetmenuOpened(false)}}
+                activvClass='active'
+                >
                 {/* <Link
                 onClick={()=>{SetmenuOpened(false)}}
                 activvClass='active'
@@ -81,7 +96,7 @@ const Header = () => {
                 smooth={true}
                 spy={true}
                 > */}
-                  Testinomials
+                  <a href='#testnomial' style={{color:'#fff', textDecoration:'none'}}> Testinomials </a>
                   {/* </Link> */}
                   </li>
             </ul>

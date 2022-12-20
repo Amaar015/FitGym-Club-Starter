@@ -11,7 +11,7 @@ import nb from './../../assets/nb.png';
 
 const resons = () => {
   return (
-      <div className="reasons">
+      <div className="reasons" id='reason'>
         <div className="reason-l">
             <img className='image1' src={image1} alt="" />
             <img className='image2' src={image2} alt="" />

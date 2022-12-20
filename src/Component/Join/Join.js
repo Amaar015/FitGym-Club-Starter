@@ -4,7 +4,7 @@ import './join.css';
 const Join = () => {
  const form =useRef();
     return (
-      <div className="join">
+      <div className="join" id='join'>
         <div className="left-j">
             <hr/>
             <div>

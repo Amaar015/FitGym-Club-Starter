@@ -11,7 +11,7 @@ const Hero = () => {
        const transition={type:'spring', duration:3}
        const mobile=window.innerWidth<=786 ? true:false;
         return (
-       <div className="hero">
+       <div className="hero" id="hero">
         <div className="blur blur-h"></div>
                <div className="left-hero">
                      <Header/>

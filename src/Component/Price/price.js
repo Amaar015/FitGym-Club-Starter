@@ -4,7 +4,7 @@ import {plansData} from './../../data/plansData';
 import whitetick from './../../assets/whiteTick.png'
 const price = () => {
   return (
-       <div className="plans-container">
+       <div className="plans-container" id='plan'>
         <div className="blur blur-p1"></div>
         <div className="blur blur-p2"></div>
 
